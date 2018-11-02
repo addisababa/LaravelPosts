@@ -26,7 +26,7 @@
         <td>{{$post->id}}</td>
         <td><img height='70px' src="{{$post->photo ? $post->photo->file : '/images/noPhoto.svg'}}"></td>
         <td>{{$post->user->name}}</td>
-        <td>{{$post->category_id}}</td>
+        <td>{{$post->category->name}}</td>
         <td>{{$post->title}}</td>
         <td>{{$post->body}}</td>
         <td>{{$post->created_at->diffForHumans()}}</td>
