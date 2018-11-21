@@ -14,7 +14,7 @@
     <thead>
       <tr>
         <th>ID</th>
-        <td>Photo</td> 
+        <th>Photo</th> 
         <th>Name</th>
         <th>Email</th>
         <th>Role</th>
